@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+       .background{
+           background: #191919;
+           height:100vh;
+           width: 100%;
+       }
+       .container{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 450;
+    border-radius: 30px;
+    line-height: 2;
+    border: 2px;
+    box-shadow: 3px;
+    background-color: rgb(134, 131, 131);
+    color: black;
+    margin: auto;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    margin-top:60px;
+    margin-left:30%;
+    padding: 20px;
+    border: 2px solid #808080;
+    border-radius:20px;
+    box-shadow: 3px 3px 3px rgb(99, 98, 98);
+}
+
+        input{
+            display: block;
+            width: 300px;
+            height: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="background">
+        <nav>
+            <h2 class="logo">Sai's<span>Orphanage</span></h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="index.html#contactus">Contact Us</a></li>
+            </ul>
+            <a href="donate.html" class="btn">Donate</a>
+        </nav>
+        <div id="pay" class="container">
+            <form>  
+                <label for="">EMAIL:</label>
+                <br>
+                 <input type="email" name="mail" id="email">
+                 <br>
+                 <label for="">NAME:</label>
+                 <br>
+                 <input type="text" name="" id="">
+                 <br>
+                 <label for="">PHONE NUMBER:</label>
+                 <br>
+                 <input type="text" name="" id="">
+                 <br>
+                 <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JfOcAOwmH2kOxm" async> </script>
+                 
+              
+               
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
